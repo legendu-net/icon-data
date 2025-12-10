@@ -1,6 +1,8 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/legendu-net/AstroNvim_template.git
+	branch = main
 [submodule "fish"]
 	path = fish
 	url = https://github.com/legendu-net/fish.git
+	branch = main
