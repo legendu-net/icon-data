@@ -18,7 +18,7 @@
 
 Host *
 # ControlMaster: persist connections for reuse
-    ControlPath ~/.ssh/control/%r@%h:%p
+    ControlPath ~/.local/share/ssh/%r@%h:%p
     ControlMaster auto
     ControlPersist yes
 #   ForwardAgent no
