@@ -22,7 +22,7 @@
     "autoDocstring.docstringFormat": "sphinx",
     "rust-analyzer.inlayHints.parameterHints": true,
     "rust-analyzer.checkOnSave.command": "clippy",
-    "rust-analyzer.check.command": "clippy"
+    "rust-analyzer.check.command": "clippy",
     "workbench.view.showQuietly": {
         "workbench.panel.output": true
     }
