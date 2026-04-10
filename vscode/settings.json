@@ -25,5 +25,6 @@
     "rust-analyzer.check.command": "clippy",
     "workbench.view.showQuietly": {
         "workbench.panel.output": true
-    }
+    },
+    "http.systemCertificatesNode": true
 }
