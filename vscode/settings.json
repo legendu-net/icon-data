@@ -2,15 +2,7 @@
     "IDX.aI.enableInlineCompletion": true,
     "IDX.aI.enableCodebaseIndexing": true,
     "terminal.integrated.enableKittyKeyboardProtocol": false,
-    "terminal.integrated.profiles.linux": {
-	    "fish - Homebrew": {
-	        "path": "/home/linuxbrew/.linuxbrew/bin/fish"
-	    },
-	    "fish - System": {
-	        "path": "/usr/bin/fish"
-	    }
-    },
-    "terminal.integrated.defaultProfile.linux": "fish - Homebrew",
+    "terminal.integrated.defaultProfile.linux": "fish",
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.quickOpen"
     ],
