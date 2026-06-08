@@ -1,6 +1,6 @@
 [user]
     name = Ben Du
-    email = longendu@yahoo.com
+    email = longendu@gmail.com
 [core]
     editor = nvim
     pager = delta
