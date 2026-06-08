@@ -17,6 +17,8 @@
 # ssh_config(5) man page.
 
 Host *
+# SSH agent
+    AddKeysToAgent yes
 # ControlMaster: persist connections for reuse
     ControlPath ~/.local/share/ssh/%r@%h:%p
     ControlMaster auto
