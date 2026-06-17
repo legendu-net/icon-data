@@ -1,6 +1,5 @@
-[user]
-    name = Ben Du
-    email = longendu@gmail.com
+[include]
+    path = ~/.config/git/user
 [core]
     editor = nvim
     pager = delta
