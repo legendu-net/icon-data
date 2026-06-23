@@ -1,0 +1,6 @@
+{
+  "autoupdate:channel": "latest",
+  "web:defaulturl": "https://github.com/dclong",
+  "term:localshellpath": "fish",
+  "term:bellindicator": true
+}
