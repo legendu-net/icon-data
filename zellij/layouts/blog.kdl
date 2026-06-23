@@ -1,0 +1,22 @@
+layout {
+    cwd "~/projects/blog"
+    tab name="Tab #1" focus=true hide_floating_panes=true {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        pane split_direction="vertical" {
+            pane command="toolbox" focus=true size="50%" {
+                args "enter" "jupyterhub-ds"
+                start_suspended true
+            }
+            pane command="toolbox" size="50%" {
+                args "enter" "jupyterhub-ds"
+                start_suspended true
+            }
+        }
+        pane size=1 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+}
+
