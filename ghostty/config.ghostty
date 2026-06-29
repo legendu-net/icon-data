@@ -1,0 +1,2 @@
+command = fish --login --interactive
+macos-option-as-alt = true
