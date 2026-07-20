@@ -1,3 +1,8 @@
+// Automatically share all new terminal sessions to the web client
+web_sharing "on"
+// Ensure a local web server is running
+web_server true
+
 // Choose the path to the default shell that zellij will use for opening new panes
 // Default: $SHELL
 default_shell "fish"
